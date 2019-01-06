@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+
+@font-face {
+    font-family: 'Chalkduster';
+    src: url('./Chalkduster.ttf');
+}
+
+body {
+    font-family: 'Raleway' !important;
+}
+button:focus {
+    outline: none;
+}
+
+.modal-open{
+    overflow: auto !important;
+}
+
+a:hover{
+    cursor:pointer;
+    text-decoration:none;
+    color:#fff;
+}
+
+.home-holder{
+    
+}
+.errorMessage{
+    font-weight: bold;
+    color:red;
+}
+.green-button{
+    width: 200px;
+    line-height: 40px;
+    color:#fff;
+    background-color:#b0d60b;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px #3b9d00;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 999;
+}
+
+.submit-green-btn{
+    line-height: 40px;
+    color:#fff;
+    background-color:#b0d60b;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 999;
+    width: 150px;
+}
+
+.home-btn-holder{
+    position: absolute;
+    bottom: 220px;
+    width: 100%;
+}
+.stripe-bg{
+    background-image: url('../../images/stripe-bg-50.jpg');
+    background-position:top;
+    color: #fff;
+    background-repeat-y: no-repeat;
+}
+.profile-name{
+    float:left;
+    line-height: 35px;
+    margin-left:10px;
+}
+.input-error{
+    color:red;
+    font-size: 0.7rem;
+    margin-bottom:10px;
+}
+.page-wrapper{
+    width: 75%;
+    margin: 0 auto;
+}
+.filter-box{
+    background:#efebeb;
+    border:1px solid #242424;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top:30px;
+}
+.chkBtn, .chkBtn-days{
+    background:transparent;
+    border-radius: 5px;
+    border:2px solid #b0d60b;
+    min-width: 100px;
+    color:#b0d60b;
+    margin: 0px 15px;
+}
+.chkBtn:hover, .chkBtn-days:hover{
+    cursor: pointer;
+    background:#b0d60b;
+    color:#fff;
+}
+.chkBtn-days{
+    margin: 0px 5px;
+}
+.filter-box-item{
+    color:#242424;
+    margin:15px 0px;
+}
+.datepicker{
+    float:left;
+    margin:0px 15px;
+}
+.filter-box-item .label{
+    line-height: 30px;
+}
+.result-holder{
+    margin:30px 0px;
+}
+.result-item{
+    color:#242424;
+}
+.result-item .name{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.result-item span{
+    font-weight: bold;
+}
+.gray-holder{
+    background: #efebea;
+    padding:15px;
+    
+    width:100%;
+}
+.white-holder{
+    background: #fff;
+    padding:15px;
+    margin:15px 0px;
+    width:100%;
+}
+.green-button-no-shadow{
+    width: 200px;
+    line-height: 40px;
+    color: #fff;
+    background-color: #b0d60b;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    z-index: 999;
+    margin-top:15px;
+}
+.testi-holder{
+    background: url('../../images/testimonials-bg.jpg') no-repeat;
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-position: right top;
+    width: 100%;
+}
+.testi-holder .carousel{
+    background: none !important;
+}
+.foter-holder{
+    background:#535252;
+}
+@media (max-width: 1080px) {
+    .home-btn-holder{
+       
+        bottom: 120px;
+    }
+}
+
+@media (max-width: 600px) {
+  
+    .green-button{
+        line-height: 25px;
+    }
+   
+}
+@media (max-width: 500px) {
+    .home-btn-holder{
+       
+        bottom: 79px;
+    }
+}
+
+@media (max-width: 450px) {
+    .green-button{
+        line-height: 18px;
+        font-size: 11px;
+    }
+    #loginBtn{
+        margin-top:10px !important;
+    }
+}

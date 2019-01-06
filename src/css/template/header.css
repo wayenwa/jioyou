@@ -1,0 +1,143 @@
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.header-holder{
+    background: url('../../images/header-bg.png') repeat;
+    width:100%;
+    position: absolute;
+    top: 0px;
+    height:50px;
+    z-index: 998;
+}
+.clear{
+    clear: both;
+}
+.primary-menu{
+
+}
+.item .content a{
+    color:#fff;
+    line-height: 35px
+}
+
+nav.primary-menu{
+    padding-right: 50px;
+}
+
+.navbar-list .item {
+    float:left;
+    padding: 10px;
+    color:#fff;
+}
+#menu-icon{
+    font-size: 30px;
+    line-height: 43px;
+    float: right;
+    color: #fff;
+    opacity: 0;
+}
+.primary-menu ul {
+    list-style: none;
+}
+#menu-icon:hover{
+    cursor: pointer;
+}
+.item .fa-caret-down{
+    line-height: 35px;
+    margin-left: 5px;
+    
+}
+.profile-holder{
+    position: relative;
+}
+.profile-holder:hover{
+    cursor: pointer;
+    position: relative;
+}
+.profile-menu{
+    width:100%;
+    bottom:-29px;
+    display: none;
+    color:#fff;
+}
+
+.profile-menu-holder{
+    padding:5px;
+    background: url('../../images/header-bg.png') repeat;
+    position: absolute;
+    width:100%;
+    left: 0px;
+    bottom: -65px;
+}
+.profile-menu-holder a {
+    color:#fff;
+    display: block;
+    text-align: right;
+    line-height: 30px;
+}
+.show{
+    display: block !important;
+}
+
+.sm-screen-profile-menu{
+    display: none;
+}
+
+
+@media (max-width: 1200px) {
+    .header-holder{
+        background: none;
+    }
+    .navbar-list {
+        display: none;
+    }
+    .primary-menu .show {
+        display: block;
+        background-color: #fff;
+        height: 400px;
+        margin-right: 16px;
+        border-radius: 15px;
+        width: 90%;
+        margin-top: 50px;
+        margin-right: -26px;
+        z-index: 999;
+    }
+    #menu-icon{
+        opacity: 1;
+        margin-right:70px;
+    }
+   
+    .primary-menu div.show .item .content a{
+        display: block;
+        color:#242424;
+        width:300px;
+    }
+    .item{
+        width: 100%;
+        border-bottom: 2px solid #e6efbd;
+    }
+    .profile-holder{
+        display: none;
+    }
+    .sm-screen-profile-menu{
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    #menu-icon{
+        margin-right:50px;
+    }
+}
+@media (max-width: 600px) {
+    #menu-icon{
+        margin-right:26px;
+    }
+}
+@media (max-width: 420px) {
+    #menu-icon{
+        margin-right:18px;
+    }
+}
